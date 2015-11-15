@@ -9,6 +9,18 @@
 %  footsepline=true
 %]{scrartcl}
 
+\def\WcI{}
+\def\WcII{}
+\def\WcIII{}
+\def\WcIV{}
+\def\WcV{}
+
+%\setlength{wCI}{7cm}
+%\setlength{wCII}{2cm}
+%\setlength{wCIII}{1.5cm}
+%\setlength{wCIV}{2cm}
+%\setlength{wCV}{2cm}
+
 
 %  Properties a la Lisp.
 \def\ece#1#2{\expandafter#1\csname#2\endcsname}%
@@ -198,7 +210,7 @@
 }
 
 \newcommand{\pos}[1]{
-\multicolumn{1}{|L{7.7cm}}{#1}
+\multicolumn{1}{|L{\WcI}}{#1}
 } 
 
 \newcommand{\units}[1]{
